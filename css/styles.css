@@ -52,10 +52,6 @@ p {
   color: var(--color-slate);
 }
 
-.link:focus {
-  outline: 1px solid var(--color-iris);
-}
-
 .image {
   display: block;
 }
@@ -165,17 +161,12 @@ p {
 
 .button-radio:hover,
 .button-radio:focus {
-  outline: 1px solid var(--color-iris);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .button-radio:active {
   color: var(--color-white);
   background-color: var(--color-iris);
-}
-
-.button-send:focus {
-  outline: 1px double var(--color-iris);
 }
 
 /* Логотип */
@@ -205,7 +196,7 @@ p {
 }
 
 .logo-footer {
-  display: block;
+  display: inline-block;
   margin-bottom: 16px;
 }
 
@@ -323,7 +314,6 @@ p {
 
 .doing-item {
   margin: 12px;
-  outline: 1px solid var(--color-cornflower);
 }
 
 .team-section {
@@ -702,7 +692,7 @@ p {
 }
 
 .checkbox-default:focus ~ .checkbox-custom {
-  outline: 1px solid var(--color-iris);
+  outline: auto;
 }
 
 .checkbox-label {
@@ -710,8 +700,4 @@ p {
   line-height: 1.33;
   letter-spacing: 0.04em;
   color: #757575;
-}
-
-.checkbox-link:focus {
-  outline: 1px solid var(--color-iris);
 }
